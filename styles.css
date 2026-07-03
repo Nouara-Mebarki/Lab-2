@@ -1,0 +1,69 @@
+/* ==========================================================================
+   THE RUSTY PISTON - Custom Steampunk Theme
+   ========================================================================== */
+
+/* Importing the required font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --copper: #B87333;
+    --dark-gray: #2E2E2E;
+    --cream: #F5F5DC;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: var(--dark-gray);
+    color: var(--cream);
+}
+
+/* Navbar Customization: Keeping the Bootstrap structure but applying theme colors */
+.navbar {
+    border-bottom: 3px solid var(--copper);
+}
+
+.navbar-brand {
+    color: var(--copper) !important;
+}
+
+/* Card Styling: Ensuring your custom cards look Steampunk within Bootstrap */
+.card {
+    background-color: #333;
+    border: 2px solid var(--copper);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: var(--cream);
+}
+
+/* Table Styling: Customizing the Bootstrap table for your aesthetic */
+.table {
+    color: var(--cream);
+    border-color: var(--copper);
+}
+
+.table thead {
+    background-color: var(--copper);
+    color: var(--dark-gray);
+}
+
+/* Form Styling: Ensuring form elements fit the theme */
+input, select, textarea {
+    background-color: var(--dark-gray) !important;
+    border: 1px solid var(--copper) !important;
+    color: var(--cream) !important;
+}
+
+button {
+    background-color: var(--copper) !important;
+    color: var(--dark-gray) !important;
+    border: none !important;
+}
+
+button:hover {
+    background-color: #d98d4d !important;
+}
+
+/* Utility to ensure images remain responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
