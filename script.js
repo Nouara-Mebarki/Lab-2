@@ -7,7 +7,7 @@ const MENU_ITEMS = [
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Rendu Menu
+    // Menu
     const container = document.getElementById('menu-container');
     if (container) {
         const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
