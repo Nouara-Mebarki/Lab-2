@@ -17,7 +17,7 @@ body {
     color: var(--cream);
 }
 
-/* Navbar Customization: Keeping the Bootstrap structure but applying theme colors */
+/* Navbar Customization */
 .navbar {
     border-bottom: 3px solid var(--copper);
 }
@@ -26,7 +26,7 @@ body {
     color: var(--copper) !important;
 }
 
-/* Card Styling: Ensuring your custom cards look Steampunk within Bootstrap */
+/* Card Styling*/
 .card {
     background-color: #333;
     border: 2px solid var(--copper);
@@ -34,7 +34,7 @@ body {
     color: var(--cream);
 }
 
-/* Table Styling: Customizing the Bootstrap table for your aesthetic */
+/* Table Styling*/
 .table {
     color: var(--cream);
     border-color: var(--copper);
@@ -45,7 +45,7 @@ body {
     color: var(--dark-gray);
 }
 
-/* Form Styling: Ensuring form elements fit the theme */
+/* Form Styling */
 input, select, textarea {
     background-color: var(--dark-gray) !important;
     border: 1px solid var(--copper) !important;
@@ -62,7 +62,6 @@ button:hover {
     background-color: #d98d4d !important;
 }
 
-/* Utility to ensure images remain responsive */
 img {
     max-width: 100%;
     height: auto;
